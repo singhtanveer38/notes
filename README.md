@@ -1,1 +1,1 @@
-# data_engg
+# Notes for Data related techologies

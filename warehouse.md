@@ -76,4 +76,4 @@ Major providers include Snowflake, Azure Synapse Analytics, Amazon Redshift, Goo
 
 1. [What Is a Data Warehouse? (by oracle)](https://www.oracle.com/in/database/what-is-a-data-warehouse/#:~:text=A%20data%20warehouse%20is%20a,large%20amounts%20of%20historical%20data.)
 2. [Wikipedia](https://en.wikipedia.org/wiki/Data_warehouse)
-3. [What is Data Warehouse? (by IBM)]("https://www.youtube.com/watch?v=k4tK2ttdSDg")
+3. [Cloud Data Storage Explained (by IBM)]("https://youtube.com/playlist?list=PLOspHqNVtKAAXDobTc9kBWwnfgzNV2k_a")
