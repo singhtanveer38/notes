@@ -41,5 +41,5 @@ The data from various sources such as applications or databases/OLTP systems is 
 
 1. [What Is a Data Warehouse by Oracle](https://www.oracle.com/in/database/what-is-a-data-warehouse/#:~:text=A%20data%20warehouse%20is%20a,large%20amounts%20of%20historical%20data.)
 2. [Wikipedia](https://en.wikipedia.org/wiki/Data_warehouse)
-3. [Cloud Data Storage Explained by IBM]("https://youtube.com/playlist?list=PLOspHqNVtKAAXDobTc9kBWwnfgzNV2k_a")
-4. [Data warehousing concepts by Naresh T]("https://youtube.com/playlist?list=PL6ZxnSyAoSoCE4nLbJxgoZ5DJziSLyBGN")
+3. [Cloud Data Storage Explained by IBM](https://youtube.com/playlist?list=PLOspHqNVtKAAXDobTc9kBWwnfgzNV2k_a)
+4. [Data warehousing concepts by Naresh T](https://youtube.com/playlist?list=PL6ZxnSyAoSoCE4nLbJxgoZ5DJziSLyBGN)
