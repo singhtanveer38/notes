@@ -35,6 +35,18 @@ _The basic architecture of a data warehouse_
 
 The data from various sources such as applications or databases/OLTP systems is processed through an ETL pipeline and stored in the warehouse. For further analysis, the data is divided into different data marts and provided to the user.
 
+## Incremental Loads
+
+ An incremental load is a process where new and updated data from some source is loaded into a destination, whereas matching data is ignored. That last part about matching data is the key. If the data is identical in both source and destination, the best thing we can do is leave it be.
+
+## High Water Mark
+
+The boundary between the used space and unused space in a data block.
+
+```
+DELETE does not resets high water mark, TRUNCATE does.
+```
+
 ---
 
 ## Reference

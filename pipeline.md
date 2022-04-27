@@ -1,14 +1,15 @@
 # Pipeline
 
 ## ETL
+
 + Refers to Extract, Transform, Load.
 + Usually used in warehouses
 + The data is loaded from database/OLTP system, transformed and then loaded into the database
 
-
 ---
 
 ## Tools
+
 1. [Airbyte](https://airbyte.com/)
 
 ---

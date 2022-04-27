@@ -1,6 +1,6 @@
 + Incremental loads
 + High watermark laods
-+ SCD
-    + type 1
-    + type 2 implement
-    + understanding type 3
++ Slowly Changing Dimension (SCD)
+    + Type 1
+    + Type 2 (Implement)
+    + Type 3 (Understanding) 
