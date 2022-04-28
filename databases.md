@@ -7,6 +7,23 @@
 
 ---
 
+## Normalization
+
+### 1NF
++ Each cell is single valued
++ Similar types of entries in columns
++ Uniquely identified rows (primary key)
+
+### 2NF
++ All columns dependent on the key
+
+### 3NF
++ All columns can be identified by the key and no other column
+
+### 4NF
++ No multi valued dependencies
+---
+
 ## Warehouse
 + Usually referred as Online Analytical Processing (OLAP).
 + Used for analysis.
@@ -55,3 +72,4 @@ DELETE does not resets high water mark, TRUNCATE does.
 2. [Wikipedia](https://en.wikipedia.org/wiki/Data_warehouse)
 3. [Cloud Data Storage Explained by IBM](https://youtube.com/playlist?list=PLOspHqNVtKAAXDobTc9kBWwnfgzNV2k_a)
 4. [Data warehousing concepts by Naresh T](https://youtube.com/playlist?list=PL6ZxnSyAoSoCE4nLbJxgoZ5DJziSLyBGN)
+5. [Normalization](https://www.youtube.com/watch?v=UrYLYV7WSHM)

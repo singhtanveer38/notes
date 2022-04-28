@@ -4,3 +4,6 @@
     + Type 1
     + Type 2 (Implement)
     + Type 3 (Understanding) 
+
+
++ enterprise, business warehouse
