@@ -1,3 +1,5 @@
+# Todo List
+
 + Incremental loads
 + High watermark laods
 + Slowly Changing Dimension (SCD)
