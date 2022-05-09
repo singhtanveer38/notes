@@ -35,6 +35,9 @@ If only one previous history is needed, go for SCD 3
 If all historical data is needed, go for SCD 2
 If no is needed, go for SCD 1
 ```
+```
+Surrogate keys can be used with SCD 
+```
 
 ---
 ## Tools
