@@ -24,6 +24,13 @@ Stores current and historical data over time in a warehouse.
     + When the value of a chosen attribute changes, the current record is closed. A new record is created with the changed data values and this new record becomes the current record.
     + Each record contains the effective time and expiration time to identify the time period between which the record was active.
 
+        ### _Note_
+
+        ```When using merge statement in SCD, use key and the column which needs to be tracked in the on clause```
+        ![merge](./img/merge.png)
+        ```Here in line 39, id is the key and price is the column whose change is being tracked``` 
+
+
 3. Type 3 SCDs - Creating a current value field
 
     + Stores two versions of values for certain selected level attributes. 

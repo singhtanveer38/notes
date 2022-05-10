@@ -1,0 +1,54 @@
+//Snowflake script for showing SCD type 2 implementation
+
+use role sysadmin;
+
+create or replace database scd_db;
+use scd_db;
+
+create or replace table product_stage(
+  id int,
+  prod varchar(20),
+  price int
+);
+
+create or replace table product_scd(
+  id int,
+  prod varchar(20),
+  price int,
+  start_date timestamp,
+  end_date timestamp,
+  active varchar(1)
+);
+
+create or replace stream product_stream on table product_stage;
+
+create or replace warehouse scd_wh
+warehouse_size = 'xsmall'
+auto_resume = true
+auto_suspend = 180;
+
+insert into product_stage values
+(1, 'coke', 20),
+(2, 'maggi', 10);
+
+select * from product_stage;
+select * from product_scd;
+select * from product_stream;
+
+merge into product_scd  t
+using product_stream  s
+on (t.id=s.id and t.price=s.price)
+when matched and (s.metadata$action='DELETE') then update set 
+end_date=current_timestamp, 
+active='n'
+when not matched and (s.metadata$action='INSERT') then
+insert (id,prod,price,start_date,end_date,active) 
+values (s.id, s.prod, s.price, current_timestamp, null, 'y');
+
+
+update product_stage
+set price=30
+where id=1;
+
+insert into product_stage values
+(3, 'maza', 40);
