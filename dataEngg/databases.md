@@ -57,7 +57,7 @@ The data from various sources such as applications or databases/OLTP systems is 
  An incremental load is a process where new and updated data from some source is loaded into a destination, whereas matching data is ignored. That last part about matching data is the key. If the data is identical in both source and destination, the best thing we can do is leave it be.
 
 - One way to implement incremental loads is to attach a timestamp along with the data. The rows with timestamp greater than the maximum of earlier extracted data is selected. But this is susceptible to data loss.
-- Another way is to use data snapshot or CDC
+- Another way is to use data snapshot or CDC. 
 
 ## High Water Mark
 
