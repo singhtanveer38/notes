@@ -6,7 +6,7 @@ vim /etc/apt/sources.list
 ```
 
 The file looks like:
-```
+```bash
 # deb cdrom:[Debian GNU/Linux 11.2.0 _Bullseye_ - Official amd64 DVD Binary-1 20211218-11:13]/ bullseye contrib main
 
 deb cdrom:[Debian GNU/Linux 11.2.0 _Bullseye_ - Official amd64 DVD Binary-1 20211218-11:13]/ bullseye contrib main
