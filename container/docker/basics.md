@@ -1,4 +1,9 @@
-## Docker
+## Docker-cli
+- Create image
+```bash
+docker build .
+```
+where ```.``` represents the directory where ```Dockerfile``` is present. 
 
 - Show running containers
 ```bash
@@ -44,6 +49,12 @@ docker logs container-id
 ```bash
 docker exec -it container-id command
 ```
+
+- Create image from running container
+```bash
+docker commit -c 'CMD["command"]' container-id
+```
+```-c``` allows to specify default command
 
 - Stop a running container
 ```bash
